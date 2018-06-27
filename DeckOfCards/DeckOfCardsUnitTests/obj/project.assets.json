@@ -1677,6 +1677,19 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "DeckOfCards/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/DeckOfCards.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeckOfCards.dll": {}
+        }
       }
     }
   },
@@ -5697,10 +5710,16 @@
         "xunit.runner.visualstudio.2.3.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "DeckOfCards/1.0.0": {
+      "type": "project",
+      "path": "../DeckOfCards/DeckOfCards.csproj",
+      "msbuildProject": "../DeckOfCards/DeckOfCards.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "DeckOfCards >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.7.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "xunit >= 2.3.1",
@@ -5736,7 +5755,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\Desktop\\Codefellows\\401\\Lab-7-Collections\\DeckOfCards\\DeckOfCards\\DeckOfCards.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\Codefellows\\401\\Lab-7-Collections\\DeckOfCards\\DeckOfCards\\DeckOfCards.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
