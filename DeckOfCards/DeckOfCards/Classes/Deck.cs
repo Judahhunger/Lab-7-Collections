@@ -38,30 +38,46 @@ namespace DeckOfCards.Classes
         /// </summary>
         /// <param name="deck"></param>
         /// <param name="cardToRemove"></param>
-       public void Remove(Deck<Cards> deck, Cards cardToRemove)
+       public bool Remove(Deck<Cards> deck, Cards cardToRemove)
         {
-            int findIndex = -1;
-            for (int i = 0; i < deck.Length; i++)
+            try
             {
-                if (deck[i] != null)
+                int findIndex = -1;
+                for (int i = 0; i < deck.Length; i++)
                 {
-                    if (deck[i].Suites == cardToRemove.Suites && deck[i].Value == cardToRemove.Value)
+                    if (deck[i] != null)
                     {
-                        findIndex = i;
-                       typeof(Cards).GetEnumName;
+                        if (deck[i].Suites == cardToRemove.Suites && deck[i].Value == cardToRemove.Value)
+                        {
+                            findIndex = i;
+                            
+                        }
                     }
+                    
                 }
+                return RemoveAt(findIndex);
                 
+              
             }
-            RemoveAt(findIndex);
+            catch (Exception e)
+            {
+               
+                Console.WriteLine(e.Message);
+        
+            }
+            return false;
         }
 
         /// <summary>
         /// Starts at the index of item and reassigns items to shift.
         /// </summary>
         /// <param name="index"></param>
-        public void RemoveAt(int index)
+        public bool RemoveAt(int index)
         {
+            if (index < 0)
+            {
+                return false;
+            }
             if ((index >= 0) && (index < count))
             {
                 for (int i = index; i < count - 1; i++)
@@ -72,7 +88,7 @@ namespace DeckOfCards.Classes
             }
            
                 Array.Resize(ref CardDeck, CardDeck.Length - 1);
-            
+            return true;
         }
 
 

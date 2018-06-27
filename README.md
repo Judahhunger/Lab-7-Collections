@@ -12,7 +12,7 @@ This project creates cards from a deck of cards. You can add cards to your deck,
 - 3. No External NuGet packages are required for this application. 
 
 ## Example
-*Show them what looks like and how how to use the application.* Pickture Goes HERE <---------------
+![ScreenShot of app running image](CollectionSceen.png)
 
 ## Architecture
 - This application is created using ASP.NET Core 7.0 Console applicaitons. 

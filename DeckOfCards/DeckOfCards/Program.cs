@@ -5,13 +5,13 @@ using DeckOfCards.Classes;
 
 namespace DeckOfCards
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
             
             Console.WriteLine("base deck __________");
-            ShowDeck(makeCards());
+            ShowDeck(MakeCards());
             Console.ReadLine();
             Console.WriteLine("------added to deck below-----");
             ShowAdd();
@@ -26,7 +26,7 @@ namespace DeckOfCards
         /// Hard codded cards and made new list then retruned it.
         /// </summary>
         /// <returns>Deck<Cards></returns>
-        public static Deck<Cards> makeCards()
+        public static Deck<Cards> MakeCards()
         {
            
             Cards card1 = new Cards
@@ -109,7 +109,7 @@ namespace DeckOfCards
         /// </summary>
         public static void ShowAdd()
         {
-            Deck<Cards> deckWithAddCards = makeCards();
+            Deck<Cards> deckWithAddCards = MakeCards();
 
             Cards card10 = new Cards
             {
@@ -141,7 +141,7 @@ namespace DeckOfCards
         /// </summary>
         public static void ShowRemove()
         {
-            Deck<Cards> showRemoveDeck = makeCards();
+            Deck<Cards> showRemoveDeck = MakeCards();
 
 
             Cards card4 = new Cards
@@ -166,7 +166,7 @@ namespace DeckOfCards
         /// </summary>
         public static void showShuffle()
         {
-            Deck<Cards> myDeck = makeCards();
+            Deck<Cards> myDeck = MakeCards();
             Console.WriteLine("_________before shuffle_______");
             ShowDeck(myDeck);
             myDeck.Shuffle();
