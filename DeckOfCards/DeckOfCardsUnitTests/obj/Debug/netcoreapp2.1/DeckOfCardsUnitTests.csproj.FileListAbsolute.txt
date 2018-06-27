@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\DeckOfCardsUnitTests.deps.json
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\DeckOfCardsUnitTests.runtimeconfig.json
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\DeckOfCardsUnitTests.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\DeckOfCardsUnitTests.dll
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\DeckOfCardsUnitTests.pdb
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\DeckOfCards.dll
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\bin\Debug\netcoreapp2.1\DeckOfCards.pdb
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\obj\Debug\netcoreapp2.1\DeckOfCardsUnitTests.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\obj\Debug\netcoreapp2.1\DeckOfCardsUnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\obj\Debug\netcoreapp2.1\DeckOfCardsUnitTests.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\obj\Debug\netcoreapp2.1\DeckOfCardsUnitTests.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\obj\Debug\netcoreapp2.1\DeckOfCardsUnitTests.csproj.CopyComplete
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\obj\Debug\netcoreapp2.1\DeckOfCardsUnitTests.dll
+C:\Users\Admin\Desktop\Codefellows\401\Lab-7-Collections\DeckOfCards\DeckOfCardsUnitTests\obj\Debug\netcoreapp2.1\DeckOfCardsUnitTests.pdb
